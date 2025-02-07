@@ -18,6 +18,10 @@ See the [instructions](https://exercism.org/docs/tracks/java/tests) for testing 
 
 These are completed during the Java track's "Learning Mode" to illustrate important language [concepts](https://exercism.org/tracks/java/concepts). They're invariably short and simple, and there generally aren't too many reasonable ways to solve them, but they can provide nice examples of Java features and built-in methods.
 
+### Annalyn's Infiltration
+
+Boolean operators.
+
 ### Lasagna
 
 The basics of method parameters and return values.
