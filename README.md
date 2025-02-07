@@ -33,3 +33,7 @@ The basics of method parameters and return values.
 ### Log Levels
 
 Strings.
+
+### Squeaky Clean
+
+The `char` type and the static methods of the `Character` class, as well as `StringBuilder`.
