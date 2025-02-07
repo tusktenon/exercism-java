@@ -21,3 +21,7 @@ These are completed during the Java track's "Learning Mode" to illustrate import
 ### Lasagna
 
 The basics of method parameters and return values.
+
+### Log Levels
+
+Strings.
