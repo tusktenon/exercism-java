@@ -1,17 +1,21 @@
 public class SalaryCalculator {
-    public double salaryMultiplier(int daysSkipped) {
-        throw new UnsupportedOperationException("Please implement the SalaryCalculator.salaryMultiplier() method");
-    }
+  public double salaryMultiplier(int daysSkipped) {
+    return daysSkipped >= 5 ? 0.85 : 1.0;
+  }
 
-    public int bonusMultiplier(int productsSold) {
-        throw new UnsupportedOperationException("Please implement the SalaryCalculator.bonusMultiplier() method");
-    }
+  public int bonusMultiplier(int productsSold) {
+    return productsSold >= 20 ? 13 : 10;
+  }
 
-    public double bonusForProductsSold(int productsSold) {
-        throw new UnsupportedOperationException("Please implement the SalaryCalculator.bonusForProductsSold() method");
-    }
+  public double bonusForProductsSold(int productsSold) {
+    return productsSold * bonusMultiplier(productsSold);
+  }
 
-    public double finalSalary(int daysSkipped, int productsSold) {
-        throw new UnsupportedOperationException("Please implement the SalaryCalculator.finalSalary() method");
-    } 
+  public double finalSalary(int daysSkipped, int productsSold) {
+    final double baseSalary = 1000;
+    final double salaryCap = 2000;
+    final var calculatedSalary =
+        baseSalary * salaryMultiplier(daysSkipped) + bonusForProductsSold(productsSold);
+    return Math.min(calculatedSalary, salaryCap);
+  }
 }

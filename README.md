@@ -34,6 +34,10 @@ The basics of method parameters and return values.
 
 Strings.
 
+### Salary Calculator
+
+The ternary operator (a.k.a. the conditional operator).
+
 ### Squeaky Clean
 
 The `char` type and the static methods of the `Character` class, as well as `StringBuilder`.
