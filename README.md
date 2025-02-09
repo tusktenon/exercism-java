@@ -30,6 +30,10 @@ Arrays, `for` loops and enhanced `for` loops. Although the intention of this exe
 
 Number type conversions. This exercise is also intended to introduce `if-else` statements, but I think a `switch` expression is nicer here.
 
+### Elon's Toy Car
+
+Classes.
+
 ### Lasagna
 
 The basics of method parameters and return values.
