@@ -22,6 +22,10 @@ These are completed during the Java track's "Learning Mode" to illustrate import
 
 Boolean operators.
 
+### Bird Watcher
+
+Arrays, `for` loops and enhanced `for` loops.
+
 ### Car's Assemble
 
 Number type conversions. This exercise is also intended to introduce `if-else` statements, but I think a `switch` expression is nicer here.
