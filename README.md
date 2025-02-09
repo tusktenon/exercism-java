@@ -24,7 +24,7 @@ Boolean operators.
 
 ### Bird Watcher
 
-Arrays, `for` loops and enhanced `for` loops.
+Arrays, `for` loops and enhanced `for` loops. Although the intention of this exercise is to teach `for` loops, the last three methods of the `BirdWatcher` class can be implemented much more elegantly using streams. I wrote both loop and stream versions.
 
 ### Car's Assemble
 
