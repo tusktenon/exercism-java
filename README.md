@@ -16,7 +16,7 @@ See the [instructions](https://exercism.org/docs/tracks/java/tests) for testing 
 
 ## Learning Exercises
 
-These are completed during the Java track's "Learning Mode" to illustrate important language [concepts](https://exercism.org/tracks/java/concepts). They're invariably short and simple, and there generally aren't too many reasonable ways to solve them, but they can provide nice examples of Java features and built-in methods.
+These are completed during the Java track's "Learning Mode" to illustrate important language [concepts](https://exercism.org/tracks/java/concepts). They're invariably short and simple, and there generally aren't too many reasonable ways to solve them, but they can provide nice examples of Java features and built-in classes.
 
 ### Annalyn's Infiltration
 
@@ -25,6 +25,10 @@ Boolean operators.
 ### Bird Watcher
 
 Arrays, `for` loops and enhanced `for` loops. Although the intention of this exercise is to teach `for` loops, the last three methods of the `BirdWatcher` class can be implemented much more elegantly using streams. I wrote both loop and stream versions.
+
+### Booking Up For Beauty
+
+Dates and times with the `LocalDate`, `LocalDateTime` and `DateTimeFormatter` classes.
 
 ### Car's Assemble
 
