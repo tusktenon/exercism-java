@@ -38,6 +38,10 @@ Number type conversions. This exercise is also intended to introduce `if-else` s
 
 Classes.
 
+### Karl's Languages
+
+Lists and generic types.
+
 ### Lasagna
 
 The basics of method parameters and return values.
