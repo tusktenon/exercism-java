@@ -50,6 +50,10 @@ Strings.
 
 The ternary operator (a.k.a. the conditional operator).
 
+### Secrets
+
+Bit manipulation: the shift (`<<`, `>>`, `>>>`) and bitwise (`&`, `|`, `^`, `~`) operators.
+
 ### Squeaky Clean
 
 The `char` type and the static methods of the `Character` class, as well as `StringBuilder`.
