@@ -1,6 +1,6 @@
 class NeedForSpeed {
-  private int speed;
-  private int batteryDrain;
+  private final int speed;
+  private final int batteryDrain;
   private int distanceDriven;
   private int batteryLevel = 100;
 
@@ -38,7 +38,7 @@ class NeedForSpeed {
 }
 
 class RaceTrack {
-  private int distance;
+  private final int distance;
 
   RaceTrack(int distance) {
     this.distance = distance;
