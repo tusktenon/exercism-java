@@ -13,6 +13,14 @@ class NeedForSpeed {
     return batteryLevel < batteryDrain;
   }
 
+  public int speed() {
+    return speed;
+  }
+
+  public int batteryDrain() {
+    return batteryDrain;
+  }
+
   public int distanceDriven() {
     return distanceDriven;
   }
@@ -37,9 +45,6 @@ class RaceTrack {
   }
 
   public boolean canFinishRace(NeedForSpeed car) {
-    while (!car.batteryDrained()) {
-      car.drive();
-    }
-    return car.distanceDriven() >= distance;
+    return car.speed() * (100 / car.batteryDrain()) >= distance;
   }
 }
