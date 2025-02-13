@@ -1,24 +1,24 @@
 import java.util.Random;
 
 class CaptainsLog {
+  private static final char[] PLANET_CLASSES =
+      new char[] {'D', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'T', 'Y'};
 
-    private static final char[] PLANET_CLASSES = new char[]{'D', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'T', 'Y'};
+  private Random random;
 
-    private Random random;
+  CaptainsLog(Random random) {
+    this.random = random;
+  }
 
-    CaptainsLog(Random random) {
-        this.random = random;
-    }
+  char randomPlanetClass() {
+    return PLANET_CLASSES[random.nextInt(PLANET_CLASSES.length)];
+  }
 
-    char randomPlanetClass() {
-        throw new UnsupportedOperationException("Please implement the CaptainsLog.randomPlanetClass() method");
-    }
+  String randomShipRegistryNumber() {
+    return "NCC-" + random.nextInt(1_000, 10_000);
+  }
 
-    String randomShipRegistryNumber() {
-        throw new UnsupportedOperationException("Please implement the CaptainsLog.randomShipRegistryNumber() method");
-    }
-
-    double randomStardate() {
-        throw new UnsupportedOperationException("Please implement the CaptainsLog.randomStardate() method");
-    }
+  double randomStardate() {
+    return random.nextDouble(41_000, 42_000);
+  }
 }

@@ -30,6 +30,10 @@ Arrays, `for` loops and enhanced `for` loops. Although the intention of this exe
 
 Dates and times with the `LocalDate`, `LocalDateTime` and `DateTimeFormatter` classes.
 
+### Captain's Log
+
+Randomness with the `Random` class. Note that in modern Java (17+), the use of `RandomGenerator` is preferred to `Random`.
+
 ### Car's Assemble
 
 Number type conversions. This exercise is also intended to introduce `if-else` statements, but I think a `switch` expression is nicer here.
