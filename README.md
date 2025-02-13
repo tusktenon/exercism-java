@@ -42,6 +42,10 @@ Number type conversions. This exercise is also intended to introduce `if-else` s
 
 Classes.
 
+### Football Match Reports
+
+Switch statements. While this exercise's associated learning concept describes only the classic, C-style `switch` *statement*, a modern (Java 14+) `switch` *expression* is a better choice.
+
 ### Karl's Languages
 
 Lists and generic types.
