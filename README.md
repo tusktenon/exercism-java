@@ -58,6 +58,10 @@ The basics of method parameters and return values.
 
 Strings.
 
+### Need for Speed
+
+Constructors.
+
 ### Salary Calculator
 
 The ternary operator (a.k.a. the conditional operator).
