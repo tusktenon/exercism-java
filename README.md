@@ -58,6 +58,10 @@ The basics of method parameters and return values.
 
 Strings.
 
+### Logs, Logs, Logs!
+
+Enumerations.
+
 ### Need for Speed
 
 Constructors.
