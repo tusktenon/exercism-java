@@ -89,3 +89,7 @@ Nullability.
 ### Wizards and Warriors
 
 Inheritance.
+
+### Wizards and Warriors 2
+
+Method overloading.
