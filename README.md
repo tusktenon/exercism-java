@@ -81,3 +81,7 @@ The `char` type and the static methods of the `Character` class, as well as `Str
 ### Tim from Marketing
 
 Nullability.
+
+### Wizards and Warriors
+
+Inheritance.
