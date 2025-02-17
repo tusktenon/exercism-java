@@ -50,6 +50,10 @@ Classes.
 
 Switch statements. While this exercise's associated learning concept describes only the classic, C-style `switch` *statement*, a modern (Java 14+) `switch` *expression* is a better choice.
 
+### Gotta Snatch 'Em All
+
+Sets.
+
 ### Karl's Languages
 
 Lists and generic types.
