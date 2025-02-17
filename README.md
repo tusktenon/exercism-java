@@ -107,6 +107,10 @@ Method overloading.
 
 These are meant for students who've completed Learning Mode or otherwise acquired basic Go proficiency, and vary considerably in length and difficulty.
 
+### High Scores
+
+A nice opportunity to use streams.
+
 ### Reverse String
 
 A one-liner thanks to the `StringBuilder` class.
