@@ -1,9 +1,15 @@
-class ResistorColor {
-    int colorCode(String color) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
+import java.util.Arrays;
 
-    String[] colors() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
+class ResistorColor {
+  private static final String[] COLORS = {
+    "black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"
+  };
+
+  int colorCode(String color) {
+    return Arrays.asList(COLORS).indexOf(color);
+  }
+
+  String[] colors() {
+    return COLORS.clone();
+  }
 }
