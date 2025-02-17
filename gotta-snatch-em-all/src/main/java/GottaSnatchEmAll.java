@@ -1,7 +1,6 @@
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 class GottaSnatchEmAll {
   static Set<String> newCollection(List<String> cards) {
@@ -17,16 +16,10 @@ class GottaSnatchEmAll {
   }
 
   static Set<String> commonCards(List<Set<String>> collections) {
-    if (collections.isEmpty()) {
-      return new HashSet<String>();
-    }
-    return new HashSet<>(collections.getFirst())
-        .stream()
-            .filter(
-                card ->
-                    collections.subList(1, collections.size()).stream()
-                        .allMatch(collection -> collection.contains(card)))
-            .collect(Collectors.toSet());
+    Set<String> intersection =
+        collections.isEmpty() ? new HashSet<String>() : new HashSet<>(collections.getFirst());
+    collections.subList(1, collections.size()).forEach(c -> intersection.retainAll(c));
+    return intersection;
   }
 
   static Set<String> allCards(List<Set<String>> collections) {
