@@ -101,3 +101,12 @@ Inheritance.
 ### Wizards and Warriors 2
 
 Method overloading.
+
+
+## Practice Exercises
+
+These are meant for students who've completed Learning Mode or otherwise acquired basic Go proficiency, and vary considerably in length and difficulty.
+
+### Reverse String
+
+A one-liner thanks to the `StringBuilder` class.
