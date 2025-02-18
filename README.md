@@ -113,7 +113,7 @@ A nice opportunity to use streams.
 
 ### Resistor Color
 
-It seems natural to record the resistor band colors as an `enum`, but a `String[]` is simpler in this case (and, I suspect, more efficient).
+It seems natural to record the resistor band colors as an `enum`, but a `String[]` is a little simpler in this case (and, I suspect, at least as efficient). I wrote implementations for both options.
 
 The `Arrays` class provides a `binarySearch` method for searching sorted arrays, but not simple methods like `contains` or `indexOf` for searching unsorted arrays. To access such methods, first convert the array to a `List` with `Arrays.asList`.
 
