@@ -107,6 +107,10 @@ Method overloading.
 
 These are meant for students who've completed Learning Mode or otherwise acquired basic Go proficiency, and vary considerably in length and difficulty.
 
+### Grains
+
+A simple exercise that provides some practice with the `BigInteger` class and (in my solution, at least) streams.
+
 ### High Scores
 
 A nice opportunity to use streams.
