@@ -109,7 +109,7 @@ These are meant for students who've completed Learning Mode or otherwise acquire
 
 ### Grains
 
-A simple exercise that provides some practice with the `BigInteger` class and (in my solution, at least) streams.
+A simple exercise that provides some practice with the `BigInteger` class.
 
 ### High Scores
 
