@@ -111,9 +111,9 @@ These are meant for students who've completed Learning Mode or otherwise acquire
 
 A nice opportunity to use streams.
 
-### Resistor Color *and* Resistor Color Duo
+### Resistor Color, Resistor Color Duo, Resistor Color Trio
 
-It seems natural to record the resistor band colors as an `enum`, but a `String[]` is a little simpler in this case (and, I suspect, at least as efficient). I wrote implementations for both options.
+It seems natural to record the resistor band colors as an `enum`, but a `String[]` is a little simpler in this case (and, I suspect, at least as efficient). For **Resistor Color**, I wrote implementations using both options; for **Resistor Color Duo** and **Resistor Color Trio** (which are just simple extensions of the original exercise), I (arbitrarily) used an `enum`.
 
 The `Arrays` class provides a `binarySearch` method for searching sorted arrays, but not simple methods like `contains` or `indexOf` for searching unsorted arrays. To access such methods, first convert the array to a `List` with `Arrays.asList`.
 
