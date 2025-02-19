@@ -111,7 +111,7 @@ These are meant for students who've completed Learning Mode or otherwise acquire
 
 A nice opportunity to use streams.
 
-### Resistor Color
+### Resistor Color *and* Resistor Color Duo
 
 It seems natural to record the resistor band colors as an `enum`, but a `String[]` is a little simpler in this case (and, I suspect, at least as efficient). I wrote implementations for both options.
 
