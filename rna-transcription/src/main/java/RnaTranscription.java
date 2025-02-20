@@ -1,7 +1,16 @@
 class RnaTranscription {
-
-    String transcribe(String dnaStrand) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
-
+  String transcribe(String dnaStrand) {
+    return dnaStrand
+        .chars()
+        .map(
+            n ->
+                switch (n) {
+                  case 'A' -> 'U';
+                  case 'C' -> 'G';
+                  case 'G' -> 'C';
+                  default -> 'A'; // case 'T'
+                })
+        .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+        .toString();
+  }
 }
