@@ -8,7 +8,8 @@ class RnaTranscription {
                   case 'A' -> 'U';
                   case 'C' -> 'G';
                   case 'G' -> 'C';
-                  default -> 'A'; // case 'T'
+                  case 'T' -> 'A';
+                  default -> throw new IllegalArgumentException("Invalid nucleotide character");
                 })
         .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
         .toString();
