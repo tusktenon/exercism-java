@@ -111,6 +111,10 @@ These are meant for students who've completed Learning Mode or otherwise acquire
 
 A simple exercise that provides some practice with the `BigInteger` class.
 
+### Hamming
+
+Some basic practice with constructors, streams, and throwing exceptions.
+
 ### High Scores
 
 A nice opportunity to use streams.
