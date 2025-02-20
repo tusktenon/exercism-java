@@ -115,6 +115,8 @@ A simple exercise that provides some practice with the `BigInteger` class.
 
 Some basic practice with constructors, streams, and throwing exceptions.
 
+For real-world data (e.g., DNA strands with billions of nucleotides), calculating the Hamming distance could be an expensive operation. The automated feedback for this exercise suggests calculating the distance inside the constructor and storing the result in a member variable, which the `getHammingDistance` method can simply return; this avoids performing the calculation more than once. The feedback also mentions another option: lazy initialization. 
+
 ### High Scores
 
 A nice opportunity to use streams.
