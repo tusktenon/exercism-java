@@ -6,7 +6,7 @@ These are my solutions to the exercises of the [Java track](https://exercism.org
 ## Completing Exercises
 
 After using the `exercism` command-line tool to download the project,
-- Fix the permissions of the Gradle script with `chmod +x ./gradlew`.
+- Fix the permissions of the Gradle wrapper script with `chmod +x ./gradlew`.
 - Copy over the `.gitignore` file from a previous exercise.
 - It's at this point that I like to do the initial commit.
 - Once you think you have a working solution, verify with `./gradlew test`.
