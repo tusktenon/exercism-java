@@ -1,16 +1,17 @@
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 class HandshakeCalculator {
 
   List<Signal> calculateHandshake(int number) {
-    List<Signal> handshake = new ArrayList<>();
     Signal[] signals = Signal.values();
-    for (int i = 0; i < signals.length; i++) {
-      if ((number & 1 << i) != 0) {
-        handshake.add(signals[i]);
-      }
-    }
+    List<Signal> handshake =
+        IntStream.range(0, signals.length)
+            .filter(i -> (number & 1 << i) != 0)
+            .mapToObj(i -> signals[i])
+            .collect(Collectors.toList());
+
     return (number & 1 << signals.length) != 0 ? handshake.reversed() : handshake;
   }
 }

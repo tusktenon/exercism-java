@@ -134,3 +134,7 @@ A one-liner thanks to the `StringBuilder` class.
 ### RNA Transcription
 
 A perfect case for using streams, though collecting the `IntStream` produced by the `String.chars` method back into a `String` value is surprisingly tricky (at least if you've already been spoiled by Rust's `Iterator::collect` method).
+
+### Secret Handshake
+
+Bit manipulations and streams.
