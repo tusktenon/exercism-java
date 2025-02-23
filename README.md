@@ -137,4 +137,4 @@ A perfect case for using streams, though collecting the `IntStream` produced by 
 
 ### Secret Handshake
 
-Bit manipulations and streams.
+Bit manipulations and streams. The `IntStream.iterate` method is very handy: it lets you create a stream with all the flexibility of an old-fashioned `for` loop.
