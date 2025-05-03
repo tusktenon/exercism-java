@@ -121,6 +121,10 @@ For real-world data (e.g., DNA strands with billions of nucleotides), calculatin
 
 A nice opportunity to use streams.
 
+### Pangram
+
+I initially solved this with an `EnumSet`, but there are nicer solutions using `Stream` or `Collection` methods.
+
 ### Resistor Color, Resistor Color Duo, Resistor Color Trio
 
 It seems natural to record the resistor band colors as an `enum`, but a `String[]` is a little simpler in this case (and, I suspect, at least as efficient). For **Resistor Color**, I wrote implementations using both options; for **Resistor Color Duo** and **Resistor Color Trio** (which are just simple extensions of the original exercise), I (arbitrarily) used an `enum`.
